@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="event">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="eventDetails">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="eventName" type="xs:string"/>
+                            <xs:element name="date" type="xs:date"/>
+                            <xs:element name="location">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="city" type="xs:string"/>
+                                        <xs:element name="venue" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="sessions">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="session" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="title" type="xs:string"/>
+                                        <xs:element name="speaker" type="xs:string"/>
+                                        <xs:element name="duration" type="xs:integer"/>
+                                        <xs:element name="audienceLevel">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="Beginner"/>
+                                                    <xs:enumeration value="Intermediate"/>
+                                                    <xs:enumeration value="Advanced"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
