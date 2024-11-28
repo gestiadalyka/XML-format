@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <event>
     <eventDetails>
-        <eventName>Tech Innovators Conference</eventName>
-        <date>2024-12-15</date>
+        <eventName>WEBINAR SESSION 3</eventName>
+        <date>2024-11-7</date>
         <location>
-            <city>San Francisco</city>
-            <venue>Tech Center</venue>
+            <city>Sorsogon</city>
+            <venue>Sorsogon State University - Bulan Campus</venue>
         </location>
     </eventDetails>
     <sessions>
         <session>
-            <title>Future of AI</title>
-            <speaker>Dr. Jane Smith</speaker>
-            <duration>60</duration>
-            <audienceLevel>Advanced</audienceLevel>
+            <title>Project Driven Session 3: Computer-generated Imagenary (CGI) Concept</title>
+            <speaker>Jason Paul Glina</speaker>
+            <duration>70</duration>
+            <audienceLevel>Beginner</audienceLevel>
         </session>
         <session>
-            <title>Cloud Computing Trends</title>
-            <speaker>John Doe</speaker>
-            <duration>45</duration>
+            <title>The Importance of Making Digital Art</title>
+            <speaker>Jason Paul Glina</speaker>
+            <duration>60</duration>
             <audienceLevel>Intermediate</audienceLevel>
         </session>
     </sessions>
