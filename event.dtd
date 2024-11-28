@@ -1,0 +1,13 @@
+<!ELEMENT event (eventDetails, sessions)>
+<!ELEMENT eventDetails (eventName, date, location)>
+<!ELEMENT eventName (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT location (city, venue)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT venue (#PCDATA)>
+<!ELEMENT sessions (session*)>
+<!ELEMENT session (title, speaker, duration, audienceLevel)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT speaker (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT audienceLevel (#PCDATA)>
