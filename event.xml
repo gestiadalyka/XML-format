@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event>
+    <eventDetails>
+        <eventName>Tech Innovators Conference</eventName>
+        <date>2024-12-15</date>
+        <location>
+            <city>San Francisco</city>
+            <venue>Tech Center</venue>
+        </location>
+    </eventDetails>
+    <sessions>
+        <session>
+            <title>Future of AI</title>
+            <speaker>Dr. Jane Smith</speaker>
+            <duration>60</duration>
+            <audienceLevel>Advanced</audienceLevel>
+        </session>
+        <session>
+            <title>Cloud Computing Trends</title>
+            <speaker>John Doe</speaker>
+            <duration>45</duration>
+            <audienceLevel>Intermediate</audienceLevel>
+        </session>
+    </sessions>
+</event>
